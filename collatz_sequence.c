@@ -5,6 +5,8 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
+#include <time.h>
+#include <sched.h>
 
 char *collatzSequence(int rootNum) {
     char collatzString[1000];  // Should be good enough size
