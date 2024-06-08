@@ -17,7 +17,7 @@ all: $(TARGET)
 
 # Build the target executable
 $(TARGET): $(SRC)
-	$(CC) $(CFLAGS) -o $(TARGET) $(SRC) -lrt
+	$(CC) $(CFLAGS) -o $(TARGET) $(SRC) 
 
 # Clean up build files
 clean:

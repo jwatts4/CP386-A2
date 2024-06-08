@@ -5,8 +5,9 @@
 collatz_sequence
 process_management
 
-# Ignore output of commands for Q2
+# Ignore text files
 output.txt
+start_numbers.txt
 
 # Ignore temporary files
 *.tmp
