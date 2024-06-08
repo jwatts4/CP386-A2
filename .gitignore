@@ -1,0 +1,33 @@
+# Ignore object files
+*.o
+
+# Ignore compiled binaries
+collatz_sequence
+process_management
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Ignore core dumps
+core
+
+# Ignore debug output
+*.log
+
+# Ignore MacOS specific files
+.DS_Store
+
+# Ignore any build directories
+/build/
+/bin/
+/obj/
+/out/
+
+# Ignore vim swap files
+*.swp
+
+# Ignore any other clutter files
+*~
