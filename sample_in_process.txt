@@ -1,0 +1,4 @@
+ls -l
+uname -a
+echo "Hello, World!"
+echo "This is CP386 homies."
